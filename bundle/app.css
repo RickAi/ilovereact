@@ -558,12 +558,13 @@ display:flex;
 
 .iphone-demo {
   position: relative;
-  -webkit-align-self: stretch;
-      -ms-flex-item-align: stretch;
-          align-self: stretch;
+
   -webkit-box-flex: 1;
+
   -webkit-flex: 1;
+
       -ms-flex: 1;
+
           flex: 1;
   display:-webkit-box;
   display:-webkit-flex;
@@ -610,7 +611,7 @@ display:flex;
 .iphone-image {
   position: absolute;
 
-  top: 175px;
+  top: 90px;
   left: 230px;
 }
 
@@ -660,7 +661,7 @@ display:flex;
 }
 
 #slider-control a {
-  padding: 3px;
+  padding: 8px;
 }
 
 #slider-control .dot {
@@ -670,7 +671,11 @@ display:flex;
   border-radius: 8px;
 }
 
-#slider-control .active .dot {
+#slider-control .active {
+  width: 16px;
+  height: 16px;
+  border: 1px solid #fff;
+  border-radius: 8px;
   background-color: #fff;
 }
 
@@ -678,4 +683,12 @@ display:flex;
   background-image: url(../img/background.jpg);
   background-size: cover;
   background-position: center;
+}
+
+#logo{
+  position: relative;
+}
+
+#robot{
+  position: relative;
 }

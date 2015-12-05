@@ -18,7 +18,9 @@
   "homepage": "https://github.com/YogiAi/ilovereact#readme",
   "dependencies": {
     "browser-sync": "^2.9.3",
-    "normalize.css": "^3.0.3"
+    "gsap": "^1.18.0",
+    "normalize.css": "^3.0.3",
+    "scrollmagic": "^2.0.5"
   },
   "devDependencies": {
     "autoprefixer": "^6.0.2",
